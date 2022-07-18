@@ -1,0 +1,17 @@
+<m:EntityDescriptor entityID="https://raw.githubusercontent.com/popovsli/misc/main/msw_sp2" ID="_9d5ca1e1-3eca-4af1-84d0-adf1477cc6c6" validUntil="2023-07-18T14:27:56.859Z" xmlns:m="urn:oasis:names:tc:SAML:2.0:metadata">
+  <m:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <m:KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=EAuth.Test</X509IssuerName>
+            <X509SerialNumber>23559454821339908316044716638996383596</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=EAuth.Test</X509SubjectName>
+          <X509Certificate>MIIDPjCCAiagAwIBAgIQEblizbXDU5hBOGHT0N3HbDANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApFQXV0aC5UZXN0MB4XDTIyMDYyMDEzMDIwMloXDTI0MDYyMDEzMTIwMlowFTETMBEGA1UEAwwKRUF1dGguVGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN1fcsRvnKHgQ2KHMLUVZb708P2WTjiRmTFpJyORaYbZY4iW1CCsT29Qo/e91iWC9wgJrimdzq4U1OJ0u7BR+egk1iNolxKeTg5LXBR+fDslK6nH07Pq0G+djX8w3yCDnGbtn2jKaA5NtI13OHvhsvV8IUO3DrCxw2zEP3zSC7xm/DnkTERCdGTJKo6rTe5QAXjFU7I5UCNh5U//IIhWyKu3kfaAPRO5pUARsVrqwREXji46VnXHzuQCclz2DAHo9sKoQV5SCxpup27bHWIrMZEtpFBTWSSUc8cw+MvV3zGkRO9baDHf2z04r5Xub/MhHY1u0yoeoTqbPVJkUSUpHwkCAwEAAaOBiTCBhjAOBgNVHQ8BAf8EBAMCA6gwFQYDVR0RBA4wDIIKRUF1dGguVGVzdDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHwYDVR0jBBgwFoAUIOvk/sjxytNQ4R1i9X3ef3o1p3MwHQYDVR0OBBYEFEgbBSCOCBvqzrpypJyIM35HvQQWMA0GCSqGSIb3DQEBCwUAA4IBAQBbOU4bRTOtOh4Gfb8tmB5n7lx9UUymg75I19a54meXudqUmn52rLcLDbKjLEJiAcKqA5SbvsMy7FkHNzvuTGXAIHP0ORFFvpfDIXAtFajfGnMgVes3K7oflVX9sXLnz8L3u5jMqHiVa7ddM6XwGYfdWv08U17cYeoXsJSWHw92xayHDQcHZmJfZAsFIkJwdP/BoIVk/MxKUEW2CN5Kz4EI+mnOv3gvGBW3U8RyiV3CxwW7NuasvsT6TYSyl7JQCxiJwZOsHKZfFsmTZQiugpv0u85OXn0p6tW+Tfq9k2eUGO1RMNecU9Z2BxUCnlBDZklQZuvja8k0vfRxFIe42kdj</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </m:KeyDescriptor>
+    <m:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:7164/identity/EAuthCallbackV2" index="0" isDefault="true" />
+  </m:SPSSODescriptor>
+</m:EntityDescriptor>
