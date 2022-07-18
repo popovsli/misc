@@ -14,6 +14,6 @@
 				</X509Data>
 			</KeyInfo>
 		</KeyDescriptor>
-		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:7164/eAuth/Auth/AssertionConsumerService" index="0"/>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:7164/identity/EAuthCallbackV2" index="0"/>
 	</SPSSODescriptor>
 </EntityDescriptor>
