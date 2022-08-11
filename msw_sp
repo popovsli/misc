@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="http://localhost" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="http://localhost" cacheDuration="PT0S" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
 	<SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<KeyDescriptor use="encryption">
 			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
