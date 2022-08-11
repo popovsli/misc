@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="http://localhost" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
-	<SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://localhost" validUntil="2022-08-11T10:33:27.4597185+03:00" cacheDuration="PT0S">
+<SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<KeyDescriptor use="encryption">
 			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
 				<X509Data>
