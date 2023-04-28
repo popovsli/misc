@@ -1,4 +1,4 @@
-<m:EntityDescriptor xmlns:m="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://localhost" ID="_2ea34c54-5d27-41a9-abf5-7727bf8079ed" validUntil="2023-08-18T14:47:06.180Z">
+<m:EntityDescriptor xmlns:m="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://localhost" ID="_2ea34c54-5d27-41a9-abf5-7727bf8079ed" validUntil="2029-08-18T14:47:06.180Z">
 	<m:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<m:KeyDescriptor use="encryption">
 			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
