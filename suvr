@@ -12,6 +12,6 @@
 				</X509Data>
 			</KeyInfo>
 		</m:KeyDescriptor>
-		<m:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:5000/identity/EAuthCallbackV2" index="0" isDefault="true"/>
+		<m:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://suvr.technologica.com/identity/EAuthCallbackV2" index="0" isDefault="true"/>
 	</m:SPSSODescriptor>
 </m:EntityDescriptor>
